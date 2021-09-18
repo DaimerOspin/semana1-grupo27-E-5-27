@@ -1,0 +1,11 @@
+El grupo E-5-27 desea realizar una pagina web de una tienda virtual orientada a la venta de vehiculos de energias amigables la cual inicialmente se  dividira en 5 secciones.
+
+1. Encabezado: Incluira un menu de navegacion, enlace al inicio y una imagen de fondo referente al proyecto.
+2. Servivios: Incluira 3 servicios con su respectiva descripcion, una imagen referente a cada uno de ellos y un enlace al detalle de cada servicio.
+3. Noticias: Incluira 4 noticias con su respectivo resumen y un enlace que lo lleve a leer toda la noicia.
+4. Equipo: Incluira la informacion pertinente a cada miembro del equipo asi como su fotografia.
+5. Pie de pagina: Incluira informacion de contacto del sitio, enlace al repositorio y contacto de los miembros del equipo.
+
+Para la primera version de la pagina se desarrollara el codigo utilizando HTML y dandole estilos en CSS; por el momento se esta realizando un bosquejo inicial del sitio con todas las secciones, una vez estructurada se realizaran los cambios que se crean pertinentes para mejorar la interaccion usuario-interfaz asi como el aspecto estético de la pagina web. Ademas se tomaran deciciones para resolver los problemas que se presenten basadas en la informacion dada por los usuarios y miembros del equipo para ofrecer una mejor experiencia por parte de nuestros clientes y publico en general.
+
+Para versiones posteriores se plantea incluir enlaces directos, botones, listas, formularios y demas que permitan al usuario acceder de forma mas rápida y eficaz a la informacion de interes como: productos, seccion de quejas y reclamos, sección de compras, sección asistecia tecnica y otras. Dependiendo de estos requerimientos se podria hacer cambios en el codigo inicial para implementar otras formas de incluir estilos para la modificacion estética sel sitio web buscando siempre mejorar la presentacion y así mismo simplificar el codigo fuente haciendo uso de JavaScript, bootstrap o si es conveniente seguir utilizando CSS.
