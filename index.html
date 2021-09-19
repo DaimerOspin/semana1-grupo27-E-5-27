@@ -83,31 +83,75 @@
 <header><h1 style="text-align: center; color:rgb(37, 78, 37); font-size: 70px;">TRANSELECTRIC S.A.S</h1></header>
     <STYle>
         .venta{
-            background-color: rgb(188, 212, 163);
             width: 33%;
             padding: 2px;
             margin: 2px;
             text-align: center;
+            font-size:x-large;
         }
-        .flex{
+                  
+        .services-info {
+            padding: 20px;
+            text-align: center;
+        }
+        .services-section,
+        .seccion-noticias,
+        .seccion-equipo {
             display: flex;
             flex-direction: row;
+            margin-bottom: 100px;
         }
-        .img8{
-            width: 40%;
-            border-radius: 50%;
+        .footer-section{
+            background-color: #25294f;
+            height: 300px;
+            display: flex;
+            color: white;
+            justify-content: space-evenly;
+            font-size: large;
         }
 
     </STYle>
 </head>
 <body>
-    <SECtion class="flex" id="servicios">
+    <h1 id="services">Servicios</h1>
+    <section class="services-section" id="Services">
+        <!-- inicio sección de servicios -->
+        <div class="venta" >
+            <article class="services-info">
+                <img class="services-info__imagen" src="producto.jpg" alt="" style="width:50%; border-radius:50%;">
+                <h2 class="services-info__title">PRODUCTOS</h2>
+                <p class="services-info__text">
+                    TRANSELECTRIC S.A.S es una empresa dedicada a la venta y reparación de transportes amigables con el medio ambiente como lo son scooters,bicicletas y motos electricas. 
+                </p>
+            </article>
+        </div>
+        <div class="venta" >
+            <article class="services-info">
+                <img class="services-info__imagen" src="asesoria.jpg" alt="" style="width:40%; border-radius:50% ">
+                <h2 class="services-info__title">ASESORIA</h2>
+                <P class="services-info__text">
+                    Para TRANSELECTRIC S.A.S es muy importante poder ofrecerle a sus clientes un producto de calidad que cumpla con sus exigencias, por ello contamos con un servicio de asesoria para poder ayudar al cliente a elegir su mejor opcion que se acomode a sus necesidades, presupuesto y gusto.
+                </p>
+            </article>
+        </div>
+        <div class="venta" >
+            <article class="services-info">
+                <img class="services-info__imagen" src="reparacion.png" alt="" style="width:40%; border-radius:50% ">
+                <h2 class="services-info__title">SERVICIO TECNICO</h2>
+                <p class="services-info__text">
+                    TRANSELECTRIC S.A.S cuenta con servicio tecnico para toda su clientela ademas de la veta de accesorios para proveer de la mejor experiencia y seguridad a nuestros clientes.
+                </p>
+            </article>
+        </div>
+    </section>   
+    <!-- fin sección de servicios -->
+    <!-- <SECtion class="flex" id="servicios">
            
         <div class="venta">
             <h2 id="services">
                PRODUCTOS 
             </h2>
-            <img src="producto.jpg" alt="Producto" id="producto">
+            <img class="img7"src="producto.jpg" alt="Producto" id="producto">
             <hr>
             <p style="margin: 2px;">
                 TRANSELECTRIC S.A.S es una empresa dedicada a la venta y reparación de transportes amigables con el medio ambiente como lo son scooters,bicicletas y motos electricas. 
@@ -127,7 +171,7 @@
             <h2 id="reparacion">
                 SERVICIO TECNICO
             </h2>
-            <img src="reparacion.png" alt="reparacion">
+            <img class="img9" src="reparacion.png" alt="reparacion">
             <hr>
             <p style="margin: 5px;">
                 TRANSELECTRIC S.A.S cuenta con servicio tecnico para toda su clientela ademas de la veta de accesorios para proveer de la mejor experiencia y seguridad a nuestros clientes. 
@@ -136,6 +180,47 @@
     </SECtion>
     <script>
         document.getElementById("producto").style.width="50%";
-    </script>
+    </script> -->
+    <section id="footer">
+        <footer>
+            <div class="footer-section">
+                <article>
+                    <h2>Contacto</h2>
+                    <p>
+                        <pre>
+                            DANIELA APOLINAR.
+                            Scrum Master.
+                            tel: 3114383650.
+    
+                            JAIRO HERNANDEZ.
+                            Development Team.
+                            tel:  3113647391.
+    
+                            SANTIAGO VEGA.
+                            Development Team.
+                            tel: 3127626040.
+    
+                            DAIMER OSPINA.
+                            Development Team.
+                            tel: 3188769757.
+    
+                        </pre>
+                    </p>
+                </article>
+                <article>
+                    <h2>Otra Información</h2>
+                    <p>
+                        <pre>
+                            <a href="https://github.com/DaimerOspin/semana1-grupo27-E-5-27.git" style="color:white">Repositorio en GITHUB</a>
+                            PBX: 01800034345
+                            Bogota, Colombia.
+                        </pre> 
+                    </p>
+                    
+                </article>
+            </div>
+        </footer>
+        
+    </section>
 </body>
 </html>
