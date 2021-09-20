@@ -32,10 +32,10 @@
                             </li>
                             <li><a href="#"><span class="tercero"><i class="icon icon-man"></i></span>miembros</a>
                                 <ul>
-                                    <li> <a href="#"> cantacto #1</a></li>
-                                    <li> <a href="#"> cantacto #2</a></li>
-                                    <li> <a href="#"> cantacto #3</a></li>
-                                    <li> <a href="#"> cantacto #4</a></li>
+                                    <li> <a href="#"> contacto #1</a></li>
+                                    <li> <a href="#"> contacto #2</a></li>
+                                    <li> <a href="#"> contacto #3</a></li>
+                                    <li> <a href="#"> contacto #4</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -79,9 +79,9 @@
        </section>
     </header>
     
-
-<header><h1 style="text-align: center; color:rgb(37, 78, 37); font-size: 70px;">TRANSELECTRIC S.A.S</h1></header>
     <STYle>
+       
+
         .venta{
             width: 33%;
             padding: 2px;
@@ -94,26 +94,84 @@
             padding: 20px;
             text-align: center;
         }
-        .services-section,
+        .services-section{
+            
+            display: flex;
+        }
+        h1.services{
+            text-align: center;
+        }
         .seccion-noticias,
-        .seccion-equipo {
+
+        h1.team{
+            text-align: center;
+            color: aliceblue;
+            background: rgba(0,0,0,0.8);
+            width: 100%;
+        }
+            
+        
+        .Team{
+            
             display: flex;
             flex-direction: row;
             margin-bottom: 100px;
+            margin: 2px;
+            border-image: round;
+                       
+        
         }
-        .footer-section{
-            background-color: #25294f;
-            height: 300px;
-            display: flex;
-            color: white;
-            justify-content: space-evenly;
-            font-size: large;
+        .team-info{
+            padding: 20px;
+            text-align: center;
+            width: 50%;
+
         }
+        .team-img{
+            border-radius: 50%;
+            width: 100%;
+        }
+
+       
+       
+
+        h2.footer1{
+            text-align: center;
+        }
+        h2.footer2{
+            text-align: center;
+        }
+         
+            
+    .footer-general{
+        padding: 30px;
+        margin: 5px;
+        color: white;
+        display: flex;
+        
+
+    }
+    .contacto-footer{
+        padding: 30px;
+        
+        width: 40%;
+        background-color: black;
+
+    }
+    .informacion-footer{
+        
+        width: 60%;
+        font: italic;
+        background-color: darkgray;
+        font-size: larger;
+
+    }
+
 
     </STYle>
 </head>
 <body>
-    <h1 id="services">Servicios</h1>
+    <h1 class= services id="services">Servicios</h1>
     <section class="services-section" id="Services">
         <!-- inicio sección de servicios -->
         <div class="venta" >
@@ -181,46 +239,116 @@
     <script>
         document.getElementById("producto").style.width="50%";
     </script> -->
-    <section id="footer">
-        <footer>
-            <div class="footer-section">
-                <article>
-                    <h2>Contacto</h2>
-                    <p>
-                        <pre>
-                            DANIELA APOLINAR.
-                            Scrum Master.
-                            tel: 3114383650.
+
+    <h1 class= team id=team>Quienes Somos</h1>
+    <hr>
+
+    <Section class="Team" id="Team">
+               
+        
+        <article class=team-info>
+        <img class=team-img src="Daniela.gif" alt="integrante 1"  ;>
+        <h2 id="Daniela"> DANIELA APOLINAR RIVERA </h2>
+        <hr>
+        <p>
+        Soy administradora de empresas, egresada de la Universidad Nacional, tengo 23 años, me apasiona el mundo de los negocios y conocer nuevos lugares y culturas
+
+        </p>
+        </article>
+       
+        <article class=team-info>
+            <img class=team-img src="Sin-título-1.gif" alt="integrante 2" >
+            <h2 id="daimer">
+                DAIMER OSPINA CONTRERAS
+            </h2>
+            <hr>
+            <p >
+            Soy ingeniero aeroespacial egresado del Instituto Nacional de Pesquisas Espacial INPE en la ciudad de Sao José dos campos - Sao Paulo Brasil. Tengo 30 años y dentro de mis pasatiempos están los videojuegos y el anime. 
+            </p>
+        </article>
+        
+        <article class=team-info>
+            <img class=team-img src="nn1.jpg" alt="integrante 3" >
+            <h2 id="Jairo">
+                JAIRO MIGUEL HERNANDEZ TORDECILLA              
+            </h2>
+                       <hr>
+            <p style="margin: 5px;">
+            Soy técnico en programación  
+            </p>
+        </article>
+        
+        <article class=team-info>
+            <img class=team-img src="Santiago.gif" alt="integrante 5">
+            <h2 id="santiago">
+                SANTIAGO DEJESUS VEGA
+            </h2>
+            <hr>
+            <p style="margin: 5px;">
+                Soy tecnico manejo ambiental, estudio programación, tengo 26 años, me gusta hacer deporte, salir a caminar y los animales, en especial los perros 
+            </p>
+        </article>
+      </Section>
+
+ 
+        
     
-                            JAIRO HERNANDEZ.
-                            Development Team.
-                            tel:  3113647391.
+</body>
+
+<footer>
+   
+    <section class=footer-general>
     
-                            SANTIAGO VEGA.
-                            Development Team.
-                            tel: 3127626040.
-    
-                            DAIMER OSPINA.
-                            Development Team.
-                            tel: 3188769757.
-    
-                        </pre>
-                    </p>
-                </article>
-                <article>
-                    <h2>Otra Información</h2>
-                    <p>
-                        <pre>
-                            <a href="https://github.com/DaimerOspin/semana1-grupo27-E-5-27.git" style="color:white">Repositorio en GITHUB</a>
-                            PBX: 01800034345
-                            Bogota, Colombia.
-                        </pre> 
-                    </p>
+       
+                      
+           <article class=contacto-footer>
+            
+                <h2 class= footer1>Contacto</h2>
+                <p class= contactanos>
+                                        
+         DANIELA APOLINAR <br>
+         Scrum Master <br>
+         tel: 3114383650 <br>
+         <br>
+
+         JAIRO HERNANDEZ <br>
+         Development Team <br>
+         tel:  3113647391 <br>
+                
+         <br>
+         SANTIAGO VEGA <br>
+         Development Team <br>
+         tel: 3127626040 <br>
+         <br>
+
+         DAIMER OSPINA <br>
+         Development Team <br>
+         tel: 3188769757 <br>
+
                     
-                </article>
-            </div>
-        </footer>
+                </p>
+            
+            </article>
+        
+       
+            <article class=informacion-footer>
+                <br>
+                <h2 class= footer2>Otra Información</h2>
+                <br>
+                <br>
+                <br>
+                <p>
+                    <pre class=pre-informacion>
+                        <a href="https://github.com/DaimerOspin/semana1-grupo27-E-5-27.git" style="color:white">Repositorio en GITHUB</a>
+                        PBX: 01800034345
+                        Bogota, Colombia.
+                    </pre> 
+                </p>
+                
+            </article>
         
     </section>
-</body>
+
+ </footer>
+
 </html>
