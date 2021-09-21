@@ -1,9 +1,4 @@
 
-body{
-    
-    /* background: url(imgre/motos1.jpg);
-    background-size: 100%; */
-}
 *{
     margin:0;
     padding:0;
@@ -28,12 +23,16 @@ h1{
     margin: left 32px;
     float: center;
     margin-top: 14px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;  
 }
 #head{
     color: rgb(196, 236, 14);
     background-color: rgb(0, 0, 0);
-    padding: 8px;    
+    padding: 8px;  
+    
+
+      
     
 }
 .menu-principal{
@@ -64,19 +63,20 @@ h1{
 #img2-center{
     width: 60px;
     float: left;
-    margin-right: 277px;
+    margin-right: 100px;
     margin-left: 0px;  
 }
 #img1-center{
-    width: 70px;
+    width: 160px;
     float: right;
-    margin-right: 80px;
-    margin-left: 50px;
+    margin-right: 60px;
+    margin-left: 0px;
+    top: 10px;
 }
 nav{
     margin:  auto;
     width: 90%;
-    max-width: 900px;
+    max-width: 700px;
 }
 nav ul{
     list-style: none;
@@ -153,7 +153,7 @@ nav ul li a .tercero{
     text-align: center;
 }
 .baner_image{
-    width: 1360px;
+    width: 1220px;
     margin-right: 19%;
 } 
 .banner_titulo{
@@ -179,17 +179,7 @@ nav ul li a .tercero{
 #btn-menu{
     display: none;
 }
-/* .redessociales{
-    border: 1px solid #fff;
-    background-color: #000000;
-    margin-left: 1090px;
-    margin-top: 344px;
-    margin-right: 0px; 
-    align-items: center;
-    cursor:pointer;
-    border-radius: 15px;
-
-}  */
+ 
 /* colores*/
 .primero{
     color: rgb(184, 78, 17);
@@ -202,7 +192,7 @@ nav ul li a .tercero{
     color: rgb(119, 3, 3);
 }
 .container-socia{
-    width: 24%;
+    width: 40%;
     margin: 0 auto;
 }
 .social-iconos{
@@ -295,6 +285,93 @@ nav ul li a .tercero{
     background:  #fff;
     border: 1px dashed #E4405F;
     color:#E4405F;
+}/* inicio seccion noticias */
+.venta{
+    background-color: rgb(188, 212, 163);
+    width: 33%;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+   
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+   
+
+}
+.img8{
+    width: 40%;
+    border-radius: 50%;
+}
+.inicioboton{
+    border: 1px solid #fff;
+    background-color: #1DA1F2;
+    list-style: none;
+    margin-right: -344px;
+    top: 60px;
+    text-decoration: none;
 }
 
+/* footer inicio */    
+.redessociales{
+    margin-top: 20px;
+    display: flex;
+    margin-left:50px;
+}
 
+.tex{
+    margin-left:40px;
+    margin-top: 30px;
+    text-align: justify;
+    color: rgb(255, 246, 246);
+    width: 70%;
+}
+
+.footer{
+    text-align: center;
+    width: 1220px;
+    height: 350px;
+    background-color: #000000;
+    background-color: #28282a;
+    opacity: 0.8;
+    background-size: 5px 5px;
+    background-image: repeating-linear-gradient(45deg, #000000 0, #000000 0.5px, #28282a 0, #28282a 50%);
+}
+
+.secciones_footer{
+    object-position: center;
+    vertical-align: top;
+    width: 550px;
+    display: inline-block;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 34px;
+   
+}
+
+.contacto{
+    vertical-align: top;
+    align-content: center;
+    font-size: x-small;
+    text-align: center;
+    display: inline-block;
+    width: 270px;
+    text-align: left;
+    line-height: 140%;
+}
+#github1{
+    width: 49px;
+    color: #fff;
+}
+.footer_copyrigth{
+    padding:  20px;
+    border-top: 2px solid #615a5a;
+    text-align: center;
+    color:#fff;
+}
