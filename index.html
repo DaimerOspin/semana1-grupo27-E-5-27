@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     
     <title>web zone</title>
     <link style="width: 30px;" rel="icon" href="imgre/bx-cycling.svg" type="image/ico">
 </head>
+
 <body>
-    <header class="header">
+
+    <header>
         <main>
             <section class="barra">
             <div id="contenedor">
@@ -24,25 +28,65 @@
                     <nav id="menu">
                         <ul class="menu-principal">
                             <input type="checkbox" id="btn-menu">
-                            <!-- <img id="img2-center" style="align-content: center;" src="imgre/targeta.ico" alt="img-ico"> -->
-                            <h1 class="titulo">TRANSELECTRIC S.A.S  </h1>
-                            <li><a href="#"><span class="primero"><i class="icon icon-newspa"></i></span>inicio</a> </li> 
-                            <li><a href="#services"><span class="primero"><i class="icon icon-newspa"></i></span>servicios</a> </li>
-                            <li><a href="#news"><span class="segundo"><i class="icon icon-newspa"></i></span>noticias</a>
-                            </li>
-                            <li><a href="#team"><span class="tercero"><i class="icon icon-man"></i></span>Equipo</a>
-                                
-                            </li>
+                          
+                            <h1 class="tituloheader"> TRANSELECTRIC S.A.S</h1>
+                            <li><a href="#inicio"><span class="primero"><i class="icon icon-newspa"></i></span>Inicio</a> </li> 
+                            <li><a href="#services"><span class="primero"><i class="icon icon-newspa"></i></span>Servicios</a> </li>
+                            <li><a href="#news"><span class="segundo"><i class="icon icon-newspa"></i></span>Noticias</a> </li>
+                            <li><a href="#team"><span class="tercero"><i class="icon icon-man"></i></span>Equipo</a> </li>
                         </ul>
                     </nav> 
                 </div>
-                <div class="banner">
-                    <img src="imgre/motos1.jpg" alt="A banner image">
-                </div>
+
+                
             </div>
            </section>
         </main>
    </header>
+
+   <br>
+  <br>
+  <br>
+  <br>
+  
+  
+
+  <section class= "banner">
+  
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imgre/motos1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+   <!-- 
+   <div class="banner">
+    <img src="" alt="A banner image">
+</div>
+
     <div class="redes1">
     </div>
     
@@ -55,7 +99,8 @@
             <li><a href="#https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
         </ul>
     </div>
-    <header class="header" id="inicio">
+    
+    
         <section class="banner">
             <div class="hero-texts">
                 <div class="baner_image">
@@ -63,103 +108,14 @@
                     <br>          
                 </div>           
             </div>             
-       </section>
-    </header>
+       </section> -->
+       
     
-    <STYle>
        
-
-        .venta{
-            width: 33%;
-            padding: 2px;
-            margin: 2px;
-            text-align: center;
-            font-size:x-large;
-        }
-                  
-        .services-info {
-            padding: 20px;
-            text-align: center;
-        }
-        .services-section{
-            
-            display: flex;
-        }
-        h1.services{
-            text-align: center;
-        }
-        .seccion-noticias,
-
-        h1.team{
-            text-align: center;
-            color: aliceblue;
-            background: rgba(0,0,0,0.8);
-            width: 100%;
-        }
-            
-        
-        .Team{
-            
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 100px;
-            margin: 2px;
-            border-image: round;
-                       
-        
-        }
-        .team-info{
-            padding: 20px;
-            text-align: center;
-            width: 50%;
-
-        }
-        .team-img{
-            border-radius: 50px;
-            width: 100%;
-        }
-
-       
-       
-
-        /* h2.footer1{
-            text-align: center;
-        }
-        h2.footer2{
-            text-align: center;
-        }
-         
-            
-    .footer-general{
-        padding: 30px;
-        margin: 5px;
-        color: white;
-        display: flex;
-        
-
-    }
-    .contacto-footer{
-        padding: 30px;
-        
-        width: 40%;
-        background-color: black;
-
-    }
-    .informacion-footer{
-        
-        width: 60%;
-        font: italic;
-        background-color: darkgray;
-        font-size: larger;
-
-    } */
-
-
-    </STYle>
-</head>
-<body>
     <h1 class= services id="services">Servicios</h1>
+    <hr>
     <section class="services-section" id="Services">
+       
         <!-- inicio sección de servicios -->
         <div class="venta" >
             <article class="services-info">
@@ -189,7 +145,10 @@
             </article>
         </div>
     </section>   
+
+
     <h1 id="services">Noticias</h1>
+    <hr>
         <!-- inicio sección de noticias -->
         <section id="servicios" class="services-section">
         <div id="news" class="venta">
@@ -246,43 +205,7 @@
         </section>
 
 
-    <!-- fin sección de servicios -->
-    <!-- <SECtion class="flex" id="servicios">
-           
-        <div class="venta">
-            <h2 id="services">
-               PRODUCTOS 
-            </h2>
-            <img class="img7"src="producto.jpg" alt="Producto" id="producto">
-            <hr>
-            <p style="margin: 2px;">
-                TRANSELECTRIC S.A.S es una empresa dedicada a la venta y reparación de transportes amigables con el medio ambiente como lo son scooters,bicicletas y motos electricas. 
-            </p>
-        </div>
-        <div class="venta">
-            <h2 id="asesoria">
-                ASESORIA
-            </h2>
-            <img class="img8" src="asesoria.jpg" alt="Asesoria">
-            <hr>
-            <p style="margin: 5px;">
-                Para TRANSELECTRIC S.A.S es muy importante poder ofrecerle a sus clientes un producto de calidad que cumpla con sus exigencias, por ello contamos con un servicio de asesoria para poder ayudar al cliente a elegir su mejor opcion que se acomode a sus necesidades, presupuesto y gusto.
-            </p>
-        </div>
-        <div class="venta">
-            <h2 id="reparacion">
-                SERVICIO TECNICO
-            </h2>
-            <img class="img9" src="reparacion.png" alt="reparacion">
-            <hr>
-            <p style="margin: 5px;">
-                TRANSELECTRIC S.A.S cuenta con servicio tecnico para toda su clientela ademas de la veta de accesorios para proveer de la mejor experiencia y seguridad a nuestros clientes. 
-            </p>
-        </div>
-    </SECtion>
-    <script>
-        document.getElementById("producto").style.width="50%";
-    </script> -->
+   
 
     <h1 class= team id=team>Quienes Somos</h1>
     <hr>
