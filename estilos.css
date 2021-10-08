@@ -1,57 +1,42 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
 
 *{
     margin:0;
     padding:0;
     
-
-   
 }
-/* Menu */
-
-header{
-    position: fixed;
+.banner>img {
     width: 100%;
-    height: 80px;
-    background: aliceblue;
-    box-shadow:1px 1px 5px #000;
-    padding: 8px;
-    float: left;
-          
-}
-.tituloheader{
-    
-    margin: auto;
-    float: center;
-    margin-top: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
-    font-size: small;
-    color: #011107;
-
-
+    height: 575px;
+    max-width: 100%;
+    object-fit: cover;
 }
 ul{
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: cursive;
     font: 3em ;
-    
 }
-
-
-
-
-
-
-
 #contenedor{
     margin: 0;
     width: 100%;
 }
-
-  
+h1{
+    margin-right: 69px;
+    margin: left 32px;
+    float: center;
+    margin-top: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;  
+}
+#head{
+    color: rgb(196, 236, 14);
+    background-color: rgb(0, 0, 0);
+    padding: 1px;  
     
 
       
     
-
+}
 .menu-principal{
     display: flex;
     list-style: none;
@@ -74,8 +59,8 @@ ul{
 #img3-center{
     width: 60px;
     float: left;
-    margin-right: 3px;
-    margin-left: 17px;  
+    top: -4px;
+    left: 20px;
 }
 #img2-center{
     width: 60px;
@@ -86,9 +71,9 @@ ul{
 #img1-center{
     width: 160px;
     float: right;
-    margin-right: 60px;
-    margin-left: 0px;
-    top: 10px;
+    top: -4px;
+    left: 20px;
+    
 }
 nav{
     margin:  auto;
@@ -102,7 +87,7 @@ nav > ul{
     display: table;
     overflow: hidden;
     width: 100%;
-    background: rgba(247, 245, 245, 0.322);
+    background: rgba(14, 14, 14, 0.322);
     position: relative;  
 }
 nav > ul li{
@@ -120,7 +105,7 @@ nav > ul > li > ul{
     display: none;
 }
 nav > ul li a{
-    color: rgb(14, 13, 13);
+    color: #fff;
     display: block;
     line-height: 20px;
     padding: 21px;
@@ -169,22 +154,24 @@ nav ul li a .tercero{
     width: 100%; 
     text-align: center;
 }
-.baner_image{
-    width: 1220px;
-    margin-right: 19%;
+#baner_image{
+    width: 166%;
+    margin-left: 100px;
+    
+   
 } 
-.banner_titulo{
-    font-size: 7em;
-    color:rgb(58, 10, 10);
-    background-color: #d6d5d59f; 
+#banner_titulo{
+    font-size: 3em;
+    color:rgb(255, 255, 255);
+   
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 .hero-texts { 
-    margin: 300;
+    
     padding: 0;
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 30%;
     text-align: center;
     margin-top: 150px;
     transform: translateX(-50%) translateY(-50%); 
@@ -208,10 +195,7 @@ nav ul li a .tercero{
 .tercero{
     color: rgb(119, 3, 3);
 }
-.container-socia{
-    width: 40%;
-    margin: 0 auto;
-}
+
 .social-iconos{
     display: flex;
     flex-wrap: wrap;
@@ -223,12 +207,13 @@ nav ul li a .tercero{
 }
 .social-iconos li a{
     display: block;
+    margin-left: -80px;
     /* position: relative; */
     width: 50px;
     height: 40px;
     line-height: 40px;
     /* font-size: 1em; */
-    margin-top: -230px;
+    margin-top: -120px;
     border-radius: 100%;
     text-align: center;
     color: #ffffff;
@@ -243,7 +228,7 @@ nav ul li a .tercero{
     content: "";
     position: absolute;
     width: 50%;
-    height: 40px;
+    height: 50px;
     z-index: -1;
     transform: scale(1);
     top: 0;
@@ -302,35 +287,96 @@ nav ul li a .tercero{
     background:  #fff;
     border: 1px dashed #E4405F;
     color:#E4405F;
-}/* inicio seccion noticias */
-.venta{
-    background-color: rgb(188, 212, 163);
-    width: 33%;
-    padding: 2px;
-    margin: 2px;
+}
+/* secciones serviccios      */
+
+
+.services-info {
+    padding: 20px;
     text-align: center;
-   
 }
-.flex{
+.services-section{
+ 
     display: flex;
-    flex-direction: row;
-    font-family: 'Inter', sans-serif;
+}
+.titu-services{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: azure;
+    background-color: rgb(61, 61, 61);
+    border: 3px solid color rgb(24, 131, 131);
+}
+#servicio1{
+    border: 2px solid rgb(255, 255, 255); 
    
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(216, 204, 149); 
+    background-color: rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 }
-.img8{
-    width: 40%;
-    border-radius: 50%;
+#servicio2{
+    border: 2px solid rgb(255, 255, 255); 
+   
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(216, 204, 149); 
+    background-color: rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.inicioboton{
-    border: 1px solid #fff;
-    background-color: #1DA1F2;
-    list-style: none;
-    margin-right: -344px;
-    top: 60px;
-    text-decoration: none;
+#servicio3{
+    border: 2px solid rgb(255, 255, 255); 
+   
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(216, 204, 149); 
+    background-color: rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+.titulo-servicios{
+    font-family:'Times New Roman', Times, serif;
+     font-size: 2em; color: rgb(216, 204, 149);
 
+}
+.img-servicios{
+    width:40%; border-radius:50%;
+    margin-top: 24px; 
+}
+/* inicio seccion noticias */
+.titulo-noticias{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: azure; 
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+}
+#Dan{
+    font-family:comic;
+}
+#parra{
+    margin: 2px; 
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-fluid{
+    background-color: #eae9eb;
+    opacity: 1;
+    background-image:  radial-gradient(#475560 0.9px, transparent 0.9px), radial-gradient(#475560 0.9px, #eae9eb 0.9px);
+    background-size: 36px 36px;
+    background-position: 0 0,18px 18px;
+}
+#new{
+
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(216, 204, 149); 
+    background-color: rgb(61, 61, 61);
+    
+}
+.buton{
+    background-color: rgb(216, 204, 149); 
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+}
+.titulo-news{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em; 
+    color: rgb(216, 204, 149);
+
+}
 /* footer inicio */    
 .redessociales{
     margin-top: 20px;
@@ -339,36 +385,37 @@ nav ul li a .tercero{
 }
 
 .tex{
-    margin-left:40px;
+    margin-left:10px;
     margin-top: 30px;
     text-align: justify;
     color: rgb(255, 246, 246);
-    width: 70%;
+    width: 60%;
+   
 }
 
 .footer{
     text-align: center;
-    width: 1220px;
-    height: 350px;
     background-color: #000000;
     background-color: #28282a;
     opacity: 0.8;
     background-size: 5px 5px;
     background-image: repeating-linear-gradient(45deg, #000000 0, #000000 0.5px, #28282a 0, #28282a 50%);
+   
+    
+  
 }
 
 .secciones_footer{
-    object-position: center;
+    
     vertical-align: top;
     width: 550px;
     display: inline-block;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
+   
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 34px;
+    margin-top: 20px;
+    
    
 }
 
@@ -378,9 +425,9 @@ nav ul li a .tercero{
     font-size: x-small;
     text-align: center;
     display: inline-block;
-    width: 270px;
+    width: 245px;
     text-align: left;
-    line-height: 140%;
+    
 }
 #github1{
     width: 49px;
@@ -391,58 +438,58 @@ nav ul li a .tercero{
     border-top: 2px solid #615a5a;
     text-align: center;
     color:#fff;
-}
-
-.venta{
-    width: 33%;
-    padding: 2px;
-    margin: 2px;
-    text-align: center;
-    font-size:x-large;
-}
-          
-.services-info {
-    padding: 20px;
-    text-align: center;
-}
-.services-section{
     
-    display: flex;
 }
-h1.services{
-    text-align: center;
-}
-.seccion-noticias,
 
-h1.team{
-    text-align: center;
-    color: aliceblue;
-    background: rgba(0,0,0,0.8);
-    width: 100%;
+#img-team{
+    width: 200px;
+    margin-top: 24px; 
 }
-    
-
-.Team{
-    
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 100px;
-    margin: 2px;
-    border-image: round;
-               
-
-}
-.team-info{
-    padding: 20px;
-    text-align: center;
-    width: 50%;
-
-}
-.team-img{
+.desvanecer {
     border-radius: 50px;
-    width: 100%;
+   
+    
+}
+.desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
 }
 
 
 
 
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .banner>img {
+        height: 400px;
+    }
+
+    .footer-section {
+        text-align: left;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
