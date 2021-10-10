@@ -1,0 +1,15 @@
+1) INTERFACES GRAFICAS DE USUARIO
+
+La página de transelectric sas cuenta con una interfaz grafica dividida en 6 partes
+
+1.1) 1 barra de menu en la cual el usuario puede elegir que quiere ver de la empresa
+1.2) Un banner de inicio que muestra la vision de la empresa
+1.3) una seccion de servicios donde el usuario puede satisfacer sus necesidades de informacion y consumo
+1.4) Una seccion de noticias que muestra a los ussuarios acontecimientos de importancia y relacionados con la tematica principal de la pagina 
+1.5) Una seccion con una breve descripcion del equipo de trabajo 
+1.6) Un pie de pagina que contiene datos de contacto y la razon de ser de la pagina 
+
+
+2)Navegación
+2.1) la barra de menu es fija 
+2.2) la barra de opciones cuenta con botones funcionales que permiten el desplazamiento por la pagina, tanto para dirigirse a una zona seccion especifica como para regresar al inicio
