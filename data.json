@@ -3,17 +3,17 @@
         {
             "titulo": "PRODUCTOS",
             "descripcion" : "TRANSELECTRIC S.A.S cuenta con servicio tecnico para toda su clientela ademas de la veta de accesorios para proveer de la mejor experiencia y seguridad a nuestros clientes.",
-            "imagen": "imgre/producto.jpg"
+            "imagen": "imgre/productos 2.jpg"
         },
         {
             "titulo": "ASESORIA",
             "descripcion" : " Para TRANSELECTRIC S.A.S es muy importante poder ofrecerle a sus clientes un producto de calidad que cumpla con sus exigencias, por ello contamos con un servicio de asesoria para poder ayudar al cliente a elegir su mejor opcion que se acomode a sus necesidades, presupuesto y gusto.",
-            "imagen": "imgre/asesoria.jpg"
+            "imagen": "imgre/asesoria2.jpg"
         },
         {
             "titulo": "SEVICIO TECNICO",
             "descripcion" : " TRANSELECTRIC S.A.S cuenta con servicio tecnico para toda su clientela ademas de la veta de accesorios para proveer de la mejor experiencia y seguridad a nuestros clientes.",
-            "imagen": "imgre/reparacion.png"
+            "imagen": "imgre/servicio tecnico.jpg"
         }
     ]
 }

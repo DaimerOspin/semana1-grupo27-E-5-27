@@ -335,7 +335,8 @@ nav ul li a .tercero{
 
 }
 .img-servicios{
-    width:40%; border-radius:50%;
+    width:200px; border-radius:20%;
+    height: 150px;
     margin-top: 24px; 
 }
 /* inicio seccion noticias */
