@@ -1,17 +1,17 @@
 import mongoose, { Schema } from "mongoose";
 const schema=mongoose.Schema;
 
-const notaSchema=new Schema({
+const clienteSchema=new Schema({
     nombre:{type:String,require:[true,'Nombre Obligatorio']},
-    descripcion: String,
-    usuarioId: String,
+    clienteId: String,
+    FacturaId: String,
     date:{type: Date, default:Date.now},
-    activo:{type:Boolean, default:true}
+    estadoCompra:String
 
 
 });
 
 //convertir a modelo
 
-const Nota=mongoose.model('Nota', notaSchema);
-export default Nota;
+const Cliente=mongoose.model('Cliente', clienteSchema);
+export default Cliente;

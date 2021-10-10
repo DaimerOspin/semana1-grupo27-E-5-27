@@ -1,19 +1,19 @@
-// const express=require ('express');
-// const morgan=require('morgan');
-// const cors=require('cors');
-// const app=express();
-// const path=require('path');
-
-import express from 'express';
-import morgan from 'morgan';
-import cors from 'cors';
-import path from 'path';
-
+const express=require ('express');
+const morgan=require('morgan');
+const cors=require('cors');
 const app=express();
+const path=require('path');
+
+// import express from 'express';
+// import morgan from 'morgan';
+// import cors from 'cors';
+// import path from 'path';
+
+// const app=express();
 
 //coneccion a base de datos
 const mongoose=require('mongoose');
-const uri='mongodb://localhost:27017/usuarios';
+const uri='mongodb://localhost:27017/clientes';
 const options={useNewUrlParser: true, useUnifiedTopology: true};
 
 
@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
 //  RUTA
-app.use('/api', require('./routes/notaruta'))
+app.use('/api', require('./routes/clientesruta'))
 
 //MIDEDLEWARES para vue.js
 const history=require('connect-history-api-fallback');
