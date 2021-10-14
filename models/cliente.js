@@ -5,8 +5,9 @@ const clienteSchema=new Schema({
     nombre:{type:String,require:[true,'Nombre Obligatorio']},
     clienteId: String,
     FacturaId: String,
-    date:{type: Date, default:Date.now},
-    estadoCompra:String
+    estadoPedido: String,
+    date:{type: Date, default:Date.now}
+    
 
 
 });

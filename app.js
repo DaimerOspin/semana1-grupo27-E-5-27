@@ -13,12 +13,16 @@ const path=require('path');
 
 //coneccion a base de datos
 const mongoose=require('mongoose');
-const uri='mongodb://localhost:27017/clientes';
+//const uri='mongodb://localhost:27017/clientes';
+const user='daimerospina';
+const password='dmospinac';
+const dataB='cliente';
+const uri= `mongodb+srv://${user}:${password}@cluster0.mwlyo.mongodb.net/${dataB}?retryWrites=true&w=majority`;
 const options={useNewUrlParser: true, useUnifiedTopology: true};
 
 
 mongoose.connect(uri,options).then(
-    ()=>{console.log('conectado a DB')},
+    ()=>{console.log('conectado a clienteDB')},
     err=> {console.log(err)}
 );
 
