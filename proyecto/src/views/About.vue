@@ -157,7 +157,7 @@ export default {
             this.clientes[index].nombre=res.data.nombre;
             this.clientes[index].descripcion=res.data.descripcion;
             this.mensaje.color="success";
-            this.mensaje.texto="Nota editada";
+            this.mensaje.texto="Cliente modificado";
             this.showAlert();
             this.editar=false;
           })
