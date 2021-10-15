@@ -20,10 +20,10 @@ router.post('/cliente-nuevo',async(req,res)=>{
 });
 
 // obtener un cliente con parametro
-router.get('/cliente/:clienteId',async(req,res)=>{
-    const clienteId=req.params.clienteId;
+router.get('/cliente/:id',async(req,res)=>{
+    const _id=req.params.id;
     try {
-        const clienteDB=await Cliente.findOne({clienteId});
+        const clienteDB=await Cliente.findOne({_id});
         res.json(clienteDB);
     } catch (error) {
         return res.status(500).json({
