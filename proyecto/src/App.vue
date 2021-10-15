@@ -12,7 +12,7 @@
                             <input type="checkbox" id="btn-menu">
                             <h1 >TRANSELECTRIC S.A.S  </h1>
                             <li><a href=""><span class="primero"><i class="icon icon-newspa"></i></span><router-link to="/">Home</router-link></a> </li> 
-                            <li><a href="#"><span class="primero"><i class="icon icon-newspa"></i></span><router-link to="/about">Servicios</router-link></a> </li>
+                            <li><a href="#"><span class="primero"><i class="icon icon-newspa"></i></span><router-link to="/servicios">Servicios</router-link></a> </li>
                             <li><a href="#"><span class="segundo"><i class="icon icon-newspa"></i></span><router-link to="/noticias">Noticias</router-link></a>
                             </li>
                           <li><a href="#team"><span class="tercero"><i class="icon icon-man"></i></span>  <router-link to="/login">equipo</router-link></a>

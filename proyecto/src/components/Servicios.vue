@@ -13,13 +13,17 @@
                         
                         <h3 class="titulo-servicios">PRODUCTOS</h3>
                         <p> "TRANSELECTRIC S.A.S cuenta con servicio tecnico para toda su clientela ademas de la veta de accesorios para proveer de la mejor experiencia y seguridad a nuestros clientes.</p>
+                        <router-link to="/about">Mas informacion</router-link>
                         <hr>
+                        
                     </article>
                     <article   style=" background: url(imgre/pa.jpeg);"  class="col-12 col-md-6 col-lg-4 servicio 2" >
                         <img class="img-servicios" src="imgre/asesoria2.jpg" alt="Imagen servicio 2">
                         
                         <h3 class="titulo-servicios" >ASESORIA</h3>
                         <p>Para TRANSELECTRIC S.A.S es muy importante poder ofrecerle a sus clientes un producto de calidad que cumpla con sus exigencias, por ello contamos con un servicio de asesoria para poder ayudar al cliente a elegir su mejor opcion que se acomode a sus necesidades, presupuesto y gusto.</p>
+                        <router-link to="/about">Mas informacion</router-link>
+                        <hr>
                         <hr>
                     </article>
                     <article   style=" background: url(imgre/patineta1.jfif);" class="col-12 col-md-6 col-lg-4 servicio 3 " id="servicio3">
@@ -27,6 +31,8 @@
                         
                         <h3 class="titulo-servicios" >SEVICIO TECNICO</h3>
                         <p >TRANSELECTRIC S.A.S cuenta con servicio tecnico para toda su clientela ademas de la veta de accesorios para proveer de la mejor experiencia y seguridad a nuestros clientes.</p>
+                        <router-link to="/about">Mas informacion</router-link>
+                        <hr>
                         <hr>
                     </article>
                  </div>
